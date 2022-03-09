@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  PreCompileScaledImages="false"
+  MasterStylesheet="/Content/Resources/BioRad_Templates/Bio-Rad style sheet.css"
+  Medium="non-print"
+  GetLatestBeforeCompile="true"
+  ConditionTagExpression="include[Default.ScreenOnly], exclude[Default.PrintOnly or Default.Writer's_Comments or Default.Writer's_Questions]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Glossaries />
+</CatapultTarget>

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>&#160;</head>
+    <body>
+        <h4 class="Head_3">Understanding the Output Step Workflow</h4>
+        <p class="Body_0">The following graphic illustrates the output directory structure in order of step execution. <MadCap:xref href="#Outputs" class="Table_Number__with_on_page">Table 1 on page 1</MadCap:xref> describes each step output.</p>
+        <p>
+            <img src="../Images/Command_Paths_Short.png" class="large_500px" />
+        </p>
+        <p style="font-variant: small-caps;margin-bottom: 7pt;">Line Color Legend</p>
+        <table style="width: 100%;">
+            <col style="width: 36px;" />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="border-right-style: none;border-right-width: 1px;padding-left: 4pt;padding-right: 10pt;padding-top: 2pt;padding-bottom: 4pt;line-height: 9pt;">
+                        <p class="z_table_row_head">
+                            <img src="../Images/Legend_black.png" class="small_15px" style="vertical-align: top;width: 8px;height: 8px;" />
+                        </p>
+                    </td>
+                    <td style="line-height: 9pt;vertical-align: middle;padding-left: 4pt;padding-right: 10pt;padding-top: 2pt;padding-bottom: 4pt;">
+                        <p class="z_table_body" style="line-height: 8pt;">Standard execution order</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-right-style: none;border-right-width: 1px;padding-left: 4pt;padding-right: 10pt;padding-top: 2pt;padding-bottom: 4pt;line-height: 9pt;">
+                        <p class="z_table_row_head">
+                            <img src="../Images/Legend_red.png" style="width: 8px;height: 8px;" />
+                        </p>
+                    </td>
+                    <td style="line-height: 9pt;vertical-align: middle;padding-left: 4pt;padding-right: 10pt;padding-top: 2pt;padding-bottom: 4pt;">
+                        <p class="z_table_body">Path to report output</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-right-style: none;border-right-width: 1px;padding-left: 4pt;padding-right: 10pt;padding-top: 2pt;padding-bottom: 4pt;line-height: 9pt;">
+                        <p class="z_table_row_head">
+                            <img src="../Images/Legend_blue.png" style="width: 8px;height: 8px;" />
+                        </p>
+                    </td>
+                    <td style="line-height: 9pt;vertical-align: middle;padding-left: 4pt;padding-right: 10pt;padding-top: 2pt;padding-bottom: 4pt;">
+                        <p class="z_table_body">Optional outputs</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            <br />
+        </p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-caption-repeat: true;mc-caption-continuation: ', continued';">
+            <caption class="table" MadCap:autonum="&lt;b&gt;Table 1. &lt;/b&gt;">Outputs<a name="Outputs"></a></caption>
+            <col style="width: 125px;" />
+            <col style="width: 427px;" />
+            <thead>
+                <tr>
+                    <th>
+                        <p class="z_table_row_head">Output Directory</p>
+                    </th>
+                    <th>
+                        <p class="z_table_row_head">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <p class="z_table_body">fastqc</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Holds the HTML reports for each of the FASTQ files in the input directory.</p>
+                        <p class="z_table_body"><strong style="font-size: 8.5pt;">(https://www.bioinformatics.babraham.ac.uk/projects/fastqc)</strong>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">debarcode (optional)</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Contains the output of the debarcode step, which removes the UMI barcode from R2, and inserts it into the name of the R1 read.</p>
+                        <p class="z_table_tip" MadCap:autonum="&lt;b&gt;Tip: &lt;/b&gt;">To skip deduplication (if running with only R1, or with R1 and R2), invoke the <tt style="font-size: 8.5pt;">--skipUMI</tt> command.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">cutAdapt</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Contains the output of the cutAdapt step, which trims the poly-A tails and first base from reads, and allows for trimming from the 5’ or 3’ end based on quality score of the following passed in options:</p>
+                        <p class="z_table_body"><tt style="font-size: 8.5pt;">--fivePrimeQualCutoff</tt>
+                        </p>
+                        <p class="z_table_body"><tt style="font-size: 8.5pt;">--threePrimeQualCutoff</tt>
+                        </p>
+                        <p class="z_table_body"><b style="font-size: 8.5pt;">(https://cutadapt.readthedocs.io/en/stable/)</b>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">starAlign</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Contains the output (aligned BAM file and STAR log file) of the starAlign step, which aligns the reads to the reference genome selected.</p>
+                        <p class="z_table_note" MadCap:autonum="&lt;b&gt;Note: &lt;/b&gt;">STAR aligner  (https://github.com/alexdobin/STAR) is used as a single pass alignment that aligns both long and short RNA at the same time. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">picardAlignSummary</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Contains the output (alignment QC stats) of the picard step, when run on the aligned BAM file.</p>
+                        <p class="z_table_body"><b style="font-size: 8.5pt;">(https://broadinstitute.github.io/picard/) </b>
+                        </p>
+                        <p class="z_table_note" MadCap:autonum="&lt;b&gt;Note: &lt;/b&gt;">The output directory contains a metrics file that is the result of the <tt style="font-size: 8.5pt;">CollectRnaSeqMetrics</tt> command.</p>
+                        <p class="z_table_body"><b style="font-size: 8.5pt;">(https://broadinstitute.github.io/picard/command-line-overview.html</b>
+                            <br style="font-weight: bold;font-size: 8.5pt;" /><b style="font-size: 8.5pt;">#CollectRnaSeqMetrics).</b>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">umiTagging (optional)</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Contains the output of an Intermediary step, which adds an XU tag indicating the UMI to each read in the aligned BAM file. </p>
+                        <p class="z_table_important" MadCap:autonum="&lt;b&gt;Important: &lt;/b&gt;">Applicable only if both R1 and R2 are present and <tt style="font-size: 8.5pt;">--skipUMI</tt> has not been set.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">deduplication (optional)</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Contains the result of PCR deduplication (deduplicated BAM file and umi_tools log file) based on the UMIs. Deduplication is performed using umi_tools  with the <tt style="font-size: 8.5pt;">--method=unique</tt> setting. </p>
+                        <p class="z_table_body"><b style="font-size: 8.5pt;">(https://github.com/CGATOxford/UMI-tools)</b>
+                        </p>
+                        <p class="z_table_body">Applicable only if both and R1 and R2 are present, and <tt style="font-size: 8.5pt;">--skipUMI</tt> has not been set.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">splitBamMi</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Holds the BAM file containing all reads that align entirely within an annotated miRNA. Overlapping reads result from intersecting the aligned BAM file with the annotated BED file containing known small RNA. Bedtools   is used for the intersection.</p>
+                        <p class="z_table_body"><b style="font-size: 8.5pt;">(https://bedtools.readthedocs.io/en/latest/index.html)</b>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">splitBamLong</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Holds the BAM file containing all reads that do not intersect a known small RNA.</p>
+                        <p class="z_table_body"> Bedtools   is used for the intersection.</p>
+                        <p class="z_table_body"><b style="font-size: 8.5pt;">(https://bedtools.readthedocs.io/en/latest/index.html)</b>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">countMicroRNA</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Holds the result (counts file and summary) of running featureCounts on the small RNA BAM file with the small RNA annotation set. </p>
+                        <p class="z_table_body"> <b style="font-size: 8.5pt;">(http://subread.sourceforge.net/)</b></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">countLongRNA</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Holds the result (counts file and summary) of running featureCounts on the long RNA BAM file with the long RNA annotation set. </p>
+                        <p class="z_table_body"><b style="font-size: 8.5pt;">(http://subread.sourceforge.net/)</b> </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">calcRPKMTPM</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Holds the result of the aggregation and normalization of the combined long RNA and small RNA counts.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">assembleReport</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Holds both PDF and HTML versions of the assembled report.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">pipeline_info</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Holds graphs and reports on the runtime of each of the steps.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

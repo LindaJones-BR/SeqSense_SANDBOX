@@ -1,0 +1,766 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: Warning_Electrical;
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	max-id: 7;
+	column-break-before: avoid;
+	page-break-inside: avoid;
+	margin-bottom: 5px;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 4;
+	name: Column1;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	text-align: left;
+	vertical-align: top;
+	cell-padding-right: 3px;
+	cell-padding-bottom: 37px;
+	size: 60px;
+	cell-content-style-tag: p;
+	cell-content-style-class: z_table_body;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 5;
+	name: Column2;
+	cell-content-style-tag: p;
+	cell-content-style-class: z_table_warning;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	id: 7;
+	name: Body1;
+	page-break-inside: avoid;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-Warning_Electrical
+{
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	margin-bottom: 5px;
+	page-break-inside: avoid;
+	column-break-before: avoid;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-Warning_Electrical-Column-Column1
+{
+	width: 60px;
+}
+
+.TableStyle-Warning_Electrical-Column-Column2
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadI-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-HeadI-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadE-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-HeadE-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadF-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-HeadF-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadH-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-HeadH-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadD-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-HeadD-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadC-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-HeadC-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadB-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-HeadB-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadA-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-HeadA-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadG-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-HeadG-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadI-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadI-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadE-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadE-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadF-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadF-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadH-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadH-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadD-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadD-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadC-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadC-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadB-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadB-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadA-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadA-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadG-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-HeadG-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootI-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-FootI-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootE-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-FootE-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootF-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-FootF-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootH-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-FootH-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootD-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-FootD-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootC-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-FootC-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootB-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-FootB-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootA-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-FootA-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootG-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-FootG-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootI-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootI-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootE-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootE-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootF-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootF-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootH-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootH-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootD-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootD-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootC-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootC-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootB-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootB-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootA-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootA-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootG-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Electrical-FootG-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-Body-Body1
+{
+	page-break-inside: avoid;
+}
+
+.TableStyle-Warning_Electrical-BodyI-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-BodyI-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyE-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-BodyE-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyF-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-BodyF-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyH-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-BodyH-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyD-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-BodyD-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyC-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-BodyC-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyB-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-BodyB-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyA-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-BodyA-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyG-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_electrical1.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Electrical-BodyG-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyI-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyI-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyE-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyE-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyF-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyF-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyH-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyH-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyD-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyD-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyC-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyC-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyB-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyB-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyA-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyA-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyG-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Electrical-BodyG-Column2-Body1 p
+{
+	
+}
+
+

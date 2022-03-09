@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>&#160;</head>
+    <body>
+        <h2 class="Head_1">Container Structure</h2>
+        <p class="Body_0">When you run the Docker command, Docker launches the <MadCap:variable name="Product Variables.Long Product Name" /> and mounts the required directories  to pass input data and receive output data. The following graphic shows the sample directory structure for the raw FASTQ files from one sample that are used in this tutorial:</p>
+        <p>
+            <img src="../Images/File_systems.png" class="large_475px" />
+        </p>
+        <p class="Body_0">All analysis will proceed from this directory structure. Each directory is briefly described in <MadCap:xref href="#directories" class="Table_Number__with_word_Table">Table 1</MadCap:xref>.</p>
+        <table style="margin-left: 0;margin-right: auto;mc-caption-repeat: true;mc-caption-continuation: ', continued';">
+            <caption class="table" MadCap:autonum="&lt;b&gt;Table 1. &lt;/b&gt;">Container directories<a name="directories"></a></caption>
+            <col />
+            <col style="width: 573px;" />
+            <thead>
+                <tr>
+                    <th>
+                        <p class="z_table_row_head">Directory</p>
+                    </th>
+                    <th>
+                        <p class="z_table_row_head">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <p class="z_table_body">/data</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Input directory, which contains your FASTQ files</p>
+                        <p class="z_table_body"><span class="Menu_Font" style="font-size: 8.5pt;">-v /local/path/to/fastqdir:/data</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">/ref_data</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body"> reference data directory, where the local copy of the reference genome is stored</p>
+                        <p class="z_table_body"><span class="Menu_Font" style="font-size: 8.5pt;">-v /local/path/to/ref_data:ref_data</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">/work</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">working directory, where all intermediary work is stored</p>
+                        <p class="z_table_body"><span class="Menu_Font" style="font-size: 8.5pt;">-v /local/path/toi/workdir:/work</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="z_table_body">/output</p>
+                    </td>
+                    <td>
+                        <p class="z_table_body">Output directory, where formal outputs of the pipeline are written</p>
+                        <p class="z_table_body"><span class="Menu_Font" style="font-size: 8.5pt;">-v /local/path/to/outputdir:/output</span>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

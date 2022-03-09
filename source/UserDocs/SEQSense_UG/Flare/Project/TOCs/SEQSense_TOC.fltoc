@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/TitlePage.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="pageLayout"
+    PageType="title"
+    StartSection="false"
+    PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 FrontMatter PageLayout.flpgl">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/BUILD_INFO.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Copyright_Info.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      BreakType="pageLayout"
+      PageType="continue"
+      PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl" />
+    <TocEntry
+      Title="Tech Support"
+      Link="/Content/Tech Support.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 FrontMatter PageLayout.flpgl"
+      PageType="continue"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Table of Contents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 FrontMatter PageLayout.flpgl"
+    PageNumberReset="reset"
+    PageNumber="3"
+    PageNumberFormat="lower-roman"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageType="title"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/SEQSenseWeb/LoggingIn.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    PageNumberReset="reset"
+    StartSection="false"
+    PageNumber="1"
+    PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    PageNumberFormat="decimal" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/SEQSenseWeb/Intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/SEQSenseWeb/Samples_Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SEQSenseWeb/Uploading_a_Sample_File.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SEQSenseWeb/Search.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="pageLayout"
+      PageType="continue"
+      StartSection="false"
+      PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SEQSenseWeb/DownloadingCSV.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="pageLayout"
+      PageType="continue"
+      StartSection="false"
+      PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SEQSenseWeb/Printing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="pageLayout"
+      PageType="continue"
+      StartSection="false"
+      PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SEQSenseWeb/ShowHideColumns.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="pageLayout"
+      PageType="continue"
+      StartSection="false"
+      PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SEQSenseWeb/Filtering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="pageLayout"
+      PageType="continue"
+      StartSection="false"
+      PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SEQSenseWeb/EditingSampleFileRecords.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="pageLayout"
+      PageType="continue"
+      StartSection="false"
+      PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SEQSenseWeb/ArchivingSampleFileRecords.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/SEQSenseWeb/Tags_Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SEQSenseWeb/Creating_Deleting_Tags.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SEQSenseWeb/Viewing_Associating_Tags.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/SEQSenseWeb/GeneratingReports.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/SEQSenseWeb/Profile_Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/SEQSenseWeb/Help_Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/SEQSenseWeb/Feedback_Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/SEQSenseWeb/Logout_Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl" />
+</CatapultToc>

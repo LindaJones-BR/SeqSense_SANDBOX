@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Name="Version"
+    EvaluatedDefinition="1.0">1.0</Variable>
+  <Variable
+    Name="Year"
+    EvaluatedDefinition="2019">2019</Variable>
+  <Variable
+    Name="Running H/F 1">|</Variable>
+  <Variable
+    Name="Running H/F 3"
+    EvaluatedDefinition="|  SeqSense Analysis Solution">|  SeqSense Analysis Solution</Variable>
+  <Variable
+    Name="Running H/F 2"></Variable>
+  <Variable
+    Name="Running H/F 4"
+    EvaluatedDefinition="User Guide  |">User Guide  |</Variable>
+  <Variable
+    Name="Short Product Name"
+    Comment=""
+    EvaluatedDefinition="SeqSense">SeqSense</Variable>
+  <Variable
+    Name="Long Product Name"
+    Comment=""
+    EvaluatedDefinition="SeqSense Analysis Solution">SeqSense Analysis Solution</Variable>
+  <Variable
+    Name="DocType"
+    Comment=""
+    EvaluatedDefinition="User Guide">User Guide</Variable>
+  <Variable
+    Name="DocType"
+    Comment=""
+    EvaluatedDefinition="Tutorial Guide">Tutorial Guide</Variable>
+  <Variable
+    Name="Running H/F 4"
+    Comment=""
+    EvaluatedDefinition="Tutorial Guide">Tutorial Guide</Variable>
+</CatapultVariableSet>

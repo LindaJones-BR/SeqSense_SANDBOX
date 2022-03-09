@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName">Bio-Rad Laboratories, Inc.</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber">510 724 7000</Variable>
+  <Variable
+    Name="TableofContents"
+    Comment="">Table of Contents</Variable>
+  <Variable
+    Name="BioRad">Bio-Rad</Variable>
+  <Variable
+    Name="Current Page #"></Variable>
+  <Variable
+    Name="BIO-RAD Legal"
+    Comment=""
+    EvaluatedDefinition="BIO-RAD">BIO-RAD</Variable>
+</CatapultVariableSet>

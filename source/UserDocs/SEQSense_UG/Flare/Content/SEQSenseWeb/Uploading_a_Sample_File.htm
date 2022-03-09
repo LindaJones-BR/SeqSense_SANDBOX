@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>&#160;</head>
+    <body>
+        <h2 class="Head_1" MadCap:conditions="Default.PrintOnly">Creating a Sample Record</h2>
+        <h3 class="Head_2" MadCap:conditions="Default.ScreenOnly">Creating a Sample Record</h3>
+        <p>Use the Samples tab to upload files and create sample records.</p>
+        <h5>To create a sample record</h5>
+        <p class="List_1_" MadCap:autonum="1. ">In the left panel, click Samples.</p>
+        <p class="List_1_" MadCap:autonum="2. ">Click the Create New Sample (<img src="../Images/Icon_CreateNewSample.png" style="width: 14px;height: 14px;"></img>) button in the upper right corner.</p>
+        <p class="Body_1">The Sample Add page appears.</p>
+        <p class="Body_1">
+            <img src="../Images/Scr_SampleAdd_Upload.png" class="large_550pxBorder" />
+        </p>
+        <p class="List_1_" style="page-break-before: always;" MadCap:autonum="3. ">To upload one or more FASTQ files, do one of the following:</p>
+        <p class="Bullet_1" MadCap:autonum="&lt;span style=&quot;font-family: 'Wingdings';&quot; class=&quot;mcFormatFamily&quot;&gt;n &lt;/span&gt; ">Drag and drop one or more files  to the boxed area under Sample Add.</p>
+        <p class="Bullet_1" MadCap:autonum="&lt;span style=&quot;font-family: 'Wingdings';&quot; class=&quot;mcFormatFamily&quot;&gt;n &lt;/span&gt; ">Click in the boxed area and select the files from the dialog box, and then click Open to upload the files.</p>
+        <p class="Important_1" MadCap:autonum="&lt;span style=&quot;color: #00a650;&quot; class=&quot;mcFormatColor&quot;&gt;&lt;b&gt;Important: &lt;/b&gt;&lt;/span&gt;">You can upload files in the .gz (GZIP) format only.</p>
+        <p class="Body_1">When the files are uploaded, they appear below the upload area with a success message.</p>
+        <p class="Body_1">
+            <img src="../Images/Scr_SampleAdd.png" class="large_550pxBorder">
+            </img>
+        </p>
+        <p class="Body_1">In the remaining steps, enter or select the applicable information in the Bioinformatics Pipeline section.</p>
+        <p class="List_1_" MadCap:autonum="4. ">In the Sample Name field, enter the sample name.</p>
+        <p class="List_1_" MadCap:autonum="5. ">(Optional) For Skip UMI processing, select Yes or No.</p>
+        <p class="Important_1" MadCap:autonum="&lt;span style=&quot;color: #00a650;&quot; class=&quot;mcFormatColor&quot;&gt;&lt;b&gt;Important: &lt;/b&gt;&lt;/span&gt;">UMIs are strings of random nucleotides attached to the start of reads. Before they are mapped, you can remove the UMIs  from the reads. However, you must keep the sequence. </p>
+        <p class="Note_1" MadCap:autonum="&lt;b&gt;Note: &lt;/b&gt;">This process is applicable only if both R1 and R2 are present.</p>
+        <p class="List_1_" MadCap:autonum="6. ">(Optional) For Species, select from the dropdown list.</p>
+        <p class="Body_1">You can select the reference genome used to map the reads in order to create a BAM file from the results. </p>
+        <p class="Body_1" style="page-break-before: always;">Currently, three reference genomes are provided:</p>
+        <p class="Bullet_1" MadCap:autonum="&lt;span style=&quot;font-family: 'Wingdings';&quot; class=&quot;mcFormatFamily&quot;&gt;n &lt;/span&gt; ">Homo sapiens (human) genome assembly GRCh38 (hg38)</p>
+        <p class="Bullet_1" MadCap:autonum="&lt;span style=&quot;font-family: 'Wingdings';&quot; class=&quot;mcFormatFamily&quot;&gt;n &lt;/span&gt; ">Mus musculus (house mouse) genome assembly GRCm38 (mm10)</p>
+        <p class="Bullet_1" MadCap:autonum="&lt;span style=&quot;font-family: 'Wingdings';&quot; class=&quot;mcFormatFamily&quot;&gt;n &lt;/span&gt; ">Rat (Rattus norvegicus) genome assembly (rnor6)</p>
+        <p class="List_1_" MadCap:autonum="7. ">(Optional) For Spike in type, select from the dropdown list.</p>
+        <p class="Body_1">Currently, <MadCap:variable name="Global Variables.BioRad" /> supports ERCC RNA Spike-In Control Mixed (ercc) only. The mixes provide a set of external RNA controls, which enable performance assessment used for gene expression experiments. Use the data from the spike-ins for normalization.</p>
+        <p class="List_1_" MadCap:autonum="8. ">(Optional) Minimum MapQ score to count — move the indicator to the correct value. The selected value appears on the right.</p>
+        <p class="Body_1">MapQ quantifies the probability that a read is misplaced.  It equals −10 log10 Pr {mapping position is wrong}, rounded to the nearest integer. Using this option, you can potentially filter out the poorly aligned reads. Reads below this specified score are not used in the mapping.</p>
+        <p class="List_1_" MadCap:autonum="9. ">(Optional) Min base pairs per read — move the indicator to the correct value. The selected value appears on the right.</p>
+        <p class="Body_1">This removes reads that are shorter than a specific number of base pairs, after trimming of adapters and bad regions.</p>
+        <p class="List_1_" MadCap:autonum="10. ">(Optional) Skip read trimming — select Yes or No.</p>
+        <p class="Body_1">Skips removing low-quality bases at the 3'-end of a read, reads containing too many N-bases along their length, and more.</p>
+        <p class="List_1_" MadCap:autonum="11. ">(Optional) 5’ read quality cutoff — move the indicator to the correct value.</p>
+        <p class="Body_1">Removes 5’ end with low-quality, based on a quality cutoff, after adapter removal (if any)</p>
+        <p class="List_1_" MadCap:autonum="12. ">(Optional) 3’ read quality cutoff  — move the indicator to the correct value.</p>
+        <p class="Body_1">Removes 3’ end with low-quality, based on a quality cutoff, after adapter removal (if any)</p>
+        <p class="List_1_" MadCap:autonum="13. ">Click Start Pipeline in the bottom right corner to initiate the pipeline.</p>
+        <p class="Body_1">
+            <img src="../Images/Scr_SampleAdd_BioinformaticsPL_Proc.png" class="large_550pxBorder" />
+        </p>
+        <p class="Body_1">You can view the pipeline completion status in the Sample Add page and in the Sample Detail page. Typical statuses are:</p>
+        <p class="Bullet_1" MadCap:autonum="&lt;span style=&quot;font-family: 'Wingdings';&quot; class=&quot;mcFormatFamily&quot;&gt;n &lt;/span&gt; ">initializing</p>
+        <p class="Bullet_1" MadCap:autonum="&lt;span style=&quot;font-family: 'Wingdings';&quot; class=&quot;mcFormatFamily&quot;&gt;n &lt;/span&gt; ">running</p>
+        <p class="Bullet_1" MadCap:autonum="&lt;span style=&quot;font-family: 'Wingdings';&quot; class=&quot;mcFormatFamily&quot;&gt;n &lt;/span&gt; ">succeeded</p>
+        <p class="Bullet_1" MadCap:autonum="&lt;span style=&quot;font-family: 'Wingdings';&quot; class=&quot;mcFormatFamily&quot;&gt;n &lt;/span&gt; ">failed</p>
+        <p class="Note_1" MadCap:autonum="&lt;b&gt;Note: &lt;/b&gt;">If you close the Sample Add page while the process is running, you cannot reopen it to display the pipeline processing. However, you can see the statuses as they change on the Sample Detail page (Sample Status). </p>
+        <p class="Body_1">When the pipeline is completed, the sample appears in the list.</p>
+        <p class="Body_1">
+            <img src="../Images/Scr_Samples.png" class="large_550pxBorder" />
+        </p>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>&#160;</head>
+    <body>
+        <h2 class="Head_1">Mounting the Directories</h2>
+        <p class="Body_0">Complete the steps below to launch the <MadCap:variable name="Product Variables.Long Product Name" /> container and mount the required directories. </p>
+        <p class="Tip_0" MadCap:autonum="&lt;b&gt;Tip: &lt;/b&gt;">To view additional options or other help information, run the following command:</p>
+        <p class="Body_0"><tt>docker run -t bioraddbg/sequoia_analysis_toolkit --help</tt>
+        </p>
+        <h5 style="line-height: 13pt;">To launch the container and mount the directories</h5>
+        <p class="List_1" style="line-height: 12pt;" MadCap:autonum="1. ">Run the <tt>docker run -t</tt> command to launch the container:</p>
+        <p class="List_1_" style="line-height: 12pt;" MadCap:autonum="2. ">Docker creates the directories comprising the container structure.</p>
+        <p class="Body_1">-v /local/path/to/workdir:/work<br />-v /local/path/to/ref_data:/ref_data<br />-v /local/path/to/outputdir:/output<br />-v /local/path/to/fastqdir:/data</p>
+        <p class="List_1_" style="line-height: 12pt;" MadCap:autonum="3. ">Name the container using the following syntax:</p>
+        <p class="Body_1"><tt>bioraddbg/sequoia_analysis_toolkit</tt>
+        </p>
+        <p class="List_1_" style="line-height: 12pt;" MadCap:autonum="4. ">Use the following settings to specify storage locations in the container:</p>
+        <p class="Bullet_1" style="line-height: 11pt;margin-top: 7pt;margin-bottom: 7pt;" MadCap:autonum="&lt;span style=&quot;font-family: 'Wingdings';&quot; class=&quot;mcFormatFamily&quot;&gt;n &lt;/span&gt; "><tt>--reads /data/myreads_*R{1,2}*.fastq.gz</tt> for FASTQ files</p>
+        <p class="Bullet_1" style="line-height: 11pt;margin-top: 7pt;margin-bottom: 7pt;" MadCap:autonum="&lt;span style=&quot;font-family: 'Wingdings';&quot; class=&quot;mcFormatFamily&quot;&gt;n &lt;/span&gt; "><tt>--outDir /output/myreads</tt> for output files</p>
+        <p class="Bullet_1" style="line-height: 11pt;margin-top: 7pt;margin-bottom: 7pt;" MadCap:autonum="&lt;span style=&quot;font-family: 'Wingdings';&quot; class=&quot;mcFormatFamily&quot;&gt;n &lt;/span&gt; "><tt>--genomes_base /ref_data</tt> for the reference genome</p>
+        <p class="Bullet_1" style="line-height: 11pt;margin-top: 7pt;margin-bottom: 7pt;" MadCap:autonum="&lt;span style=&quot;font-family: 'Wingdings';&quot; class=&quot;mcFormatFamily&quot;&gt;n &lt;/span&gt; "><tt> -w /work</tt> for the working directory</p>
+        <p class="List_1_" style="line-height: 12pt;" MadCap:autonum="5. ">Use <tt>profile indocker</tt> for the context of this tutorial.</p>
+        <p class="List_1_" style="line-height: 12pt;" MadCap:autonum="6. ">Use <tt>--genome {hg38,mm10,rnor6}</tt> to specify the reference genome.</p>
+        <p class="Body_0" style="line-height: 12pt;">The complete invocation to set up the pipeline is shown below:</p>
+        <p class="BodyNoSpace" style="font-size: 8.5pt;"><tt style="font-size: 8.5pt;">docker run --rm -t -v /local/path/to/workdir:/work \</tt>
+        </p>
+        <p class="BodyNoSpace_1" style="font-size: 8.5pt;"><tt style="font-size: 8.5pt;">-v /local/path/to/ref_data:/ref_data \</tt>
+        </p>
+        <p class="BodyNoSpace_1" style="font-size: 8.5pt;"><tt style="font-size: 8.5pt;">-v /local/path/to/outputdir:/output \</tt>
+        </p>
+        <p class="BodyNoSpace_1" style="font-size: 8.5pt;"><tt style="font-size: 8.5pt;">-v /local/path/to/fastqdir:/data \</tt>
+        </p>
+        <p class="BodyNoSpace_1" style="font-size: 8.5pt;"><tt style="font-size: 8.5pt;">bioraddbg/sequoia_analysis_toolkit \</tt>
+        </p>
+        <p class="BodyNoSpace_1" style="font-size: 8.5pt;"><tt style="font-size: 8.5pt;">--reads ‘/data/myreads_*R{1,2}*.fastq.gz \</tt>
+        </p>
+        <p class="BodyNoSpace_1" style="font-size: 8.5pt;"><tt style="font-size: 8.5pt;">--outDir /output/myreads \</tt>
+        </p>
+        <p class="BodyNoSpace_1" style="font-size: 8.5pt;"><tt style="font-size: 8.5pt;">--genomes_base /ref_data \</tt>
+        </p>
+        <p class="BodyNoSpace_1" style="font-size: 8.5pt;"><tt style="font-size: 8.5pt;">-w /work </tt>\</p>
+        <p class="BodyNoSpace_1" style="font-size: 8.5pt;"><tt style="font-size: 8.5pt;">-profile indocker \</tt>
+        </p>
+        <p class="BodyNoSpace_1"><tt style="font-size: 8.5pt;">--genome hg38</tt>
+        </p>
+    </body>
+</html>

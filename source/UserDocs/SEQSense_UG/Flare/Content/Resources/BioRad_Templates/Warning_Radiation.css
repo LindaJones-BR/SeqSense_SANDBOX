@@ -1,0 +1,766 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: Warning_Radiation;
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	max-id: 7;
+	column-break-before: avoid;
+	page-break-inside: avoid;
+	margin-bottom: 5px;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 4;
+	name: Column1;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	text-align: left;
+	vertical-align: top;
+	cell-padding-right: 3px;
+	cell-padding-bottom: 37px;
+	size: 60px;
+	cell-content-style-tag: p;
+	cell-content-style-class: z_table_body;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 5;
+	name: Column2;
+	cell-content-style-tag: p;
+	cell-content-style-class: z_table_warning;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	id: 7;
+	name: Body1;
+	page-break-inside: avoid;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-Warning_Radiation
+{
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	margin-bottom: 5px;
+	page-break-inside: avoid;
+	column-break-before: avoid;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-Warning_Radiation-Column-Column1
+{
+	width: 60px;
+}
+
+.TableStyle-Warning_Radiation-Column-Column2
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadI-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-HeadI-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadE-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-HeadE-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadF-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-HeadF-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadH-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-HeadH-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadD-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-HeadD-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadC-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-HeadC-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadB-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-HeadB-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadA-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-HeadA-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadG-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-HeadG-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadI-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadI-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadE-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadE-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadF-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadF-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadH-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadH-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadD-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadD-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadC-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadC-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadB-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadB-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadA-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadA-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadG-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-HeadG-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootI-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-FootI-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootE-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-FootE-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootF-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-FootF-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootH-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-FootH-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootD-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-FootD-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootC-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-FootC-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootB-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-FootB-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootA-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-FootA-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootG-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-FootG-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootI-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootI-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootE-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootE-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootF-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootF-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootH-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootH-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootD-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootD-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootC-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootC-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootB-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootB-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootA-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootA-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootG-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Radiation-FootG-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-Body-Body1
+{
+	page-break-inside: avoid;
+}
+
+.TableStyle-Warning_Radiation-BodyI-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-BodyI-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyE-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-BodyE-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyF-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-BodyF-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyH-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-BodyH-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyD-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-BodyD-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyC-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-BodyC-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyB-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-BodyB-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyA-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-BodyA-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyG-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Warning_radiation.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Radiation-BodyG-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyI-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyI-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyE-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyE-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyF-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyF-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyH-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyH-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyD-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyD-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyC-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyC-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyB-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyB-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyA-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyA-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyG-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Radiation-BodyG-Column2-Body1 p
+{
+	
+}
+
+

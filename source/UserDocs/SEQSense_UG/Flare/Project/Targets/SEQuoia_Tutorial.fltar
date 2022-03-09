@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterStylesheet="/Content/Resources/BioRad_Templates/Bio-Rad style sheet.css"
+  PreCompileScaledImages="false"
+  ExcludeUnreferencedContent="false"
+  Medium="print"
+  InjectEmptyPages="true"
+  PatchHeadingLevels="true"
+  InjectBookHeadings="true"
+  MasterToc="/Project/TOCs/SEQSense_TOC.fltoc"
+  MasterPageLayout="/Content/Resources/BioRad_Templates/Bio-Rad 8.5x11 PDF PageLayout.flpgl"
+  ConditionTagExpression="exclude[Default.PrintOnly or Default.ScreenOnly or Default.Writer's_Comments or Default.Writer's_Questions] ">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Glossaries />
+  <DocumentProperties
+    Title="SEQuoia Tutorial"
+    Author="Bio-Rad Laboratories, Inc." />
+  <PDF
+    ConvertToCMYK="true"
+    InitialMagnification="FitH"
+    PageLayout="SinglePage"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true"
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

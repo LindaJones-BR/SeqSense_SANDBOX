@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>&#160;</head>
+    <body>
+        <h1 class="AppTitle" MadCap:autonum="Appendix 1 ">Downloading the Reference Genome</h1>
+        <p>To download the reference genome, you must install the awscli tools per the instructions at the following link:</p>
+        <p> <a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html">https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html</a></p>
+        <p>After you have installed the awscli tools, execute the following commands to download the genome:</p>
+        <p class="Body_1"><tt>mkdir ref_data</tt>
+        </p>
+        <p class="Body_1"><tt>cd ref_data</tt>
+        </p>
+        <p class="Body_1"><tt>aws s3 cp --recursive s3://dbg-cloudpipeline-data-us-west-2-prod/ref_data/sequoia_analysis/latest/hg38.tar.gz ./</tt>
+        </p>
+        <p class="Body_1"><tt>aws s3 cp --recursive s3://dbg-cloudpipeline-data-us-west-2-prod/ref_data/sequoia_analysis/latest/mm10.tar.gz ./</tt>
+        </p>
+        <p class="Body_1"><tt>aws s3 cp --recursive s3://dbg-cloudpipeline-data-us-west-2-prod/ref_data/sequoia_analysis/latest/rnor6.tar.gz ./</tt>
+        </p>
+        <p class="Body_1"><tt>tar xvzf hg38.tar.gz</tt>
+        </p>
+        <p class="Body_1"><tt>tar xvzf mm10.tar.gz</tt>
+        </p>
+        <p class="Body_1"><tt>tar xvzf rnor6.tar.gz</tt>
+        </p>
+        <p class="Body_1"><tt>md5sum -c ./*/*.chk</tt>
+        </p>
+    </body>
+</html>

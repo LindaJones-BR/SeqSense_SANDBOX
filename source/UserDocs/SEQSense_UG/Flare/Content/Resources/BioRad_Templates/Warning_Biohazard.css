@@ -1,0 +1,766 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: Warning_Biohazard;
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	max-id: 7;
+	column-break-before: avoid;
+	page-break-inside: avoid;
+	margin-bottom: 5px;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 4;
+	name: Column1;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	text-align: left;
+	vertical-align: top;
+	cell-padding-right: 3px;
+	cell-padding-bottom: 37px;
+	size: 60px;
+	cell-content-style-tag: p;
+	cell-content-style-class: z_table_body;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 5;
+	name: Column2;
+	cell-content-style-tag: p;
+	cell-content-style-class: z_table_warning;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	id: 7;
+	name: Body1;
+	page-break-inside: avoid;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-Warning_Biohazard
+{
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	margin-bottom: 5px;
+	page-break-inside: avoid;
+	column-break-before: avoid;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-Warning_Biohazard-Column-Column1
+{
+	width: 60px;
+}
+
+.TableStyle-Warning_Biohazard-Column-Column2
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadI-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-HeadI-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadE-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-HeadE-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadF-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-HeadF-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadH-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-HeadH-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadD-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-HeadD-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadC-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-HeadC-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadB-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-HeadB-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadA-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-HeadA-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadG-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-HeadG-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadI-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadI-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadE-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadE-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadF-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadF-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadH-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadH-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadD-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadD-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadC-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadC-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadB-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadB-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadA-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadA-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadG-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-HeadG-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootI-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-FootI-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootE-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-FootE-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootF-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-FootF-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootH-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-FootH-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootD-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-FootD-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootC-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-FootC-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootB-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-FootB-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootA-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-FootA-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootG-Column1-
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-FootG-Column1- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootI-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootI-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootE-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootE-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootF-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootF-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootH-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootH-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootD-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootD-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootC-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootC-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootB-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootB-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootA-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootA-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootG-Column2-
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-FootG-Column2- p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-Body-Body1
+{
+	page-break-inside: avoid;
+}
+
+.TableStyle-Warning_Biohazard-BodyI-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-BodyI-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyE-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-BodyE-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyF-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-BodyF-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyH-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-BodyH-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyD-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-BodyD-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyC-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-BodyC-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyB-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-BodyB-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyA-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-BodyA-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyG-Column1-Body1
+{
+	text-align: left;
+	vertical-align: top;
+	background-image: url('../Common Images/Biohazard_image.png');
+	background-repeat: no-repeat;
+	padding-right: 3px;
+	padding-bottom: 37px;
+}
+
+.TableStyle-Warning_Biohazard-BodyG-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyI-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyI-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyE-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyE-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyF-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyF-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyH-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyH-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyD-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyD-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyC-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyC-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyB-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyB-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyA-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyA-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyG-Column2-Body1
+{
+	
+}
+
+.TableStyle-Warning_Biohazard-BodyG-Column2-Body1 p
+{
+	
+}
+
+
